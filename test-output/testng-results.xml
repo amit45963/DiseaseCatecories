@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-20T15:39:28 IST" name="Smoke" finished-at="2023-01-20T15:39:29 IST" duration-ms="1809">
+    <groups>
+      <group name="Smoke">
+        <method signature="GetAllDiseases.getAllDiseases(java.lang.String)[pri:0, instance:com.nitara.RestAssured.GetAllDiseases@3232a28a]" name="getAllDiseases" class="com.nitara.RestAssured.GetAllDiseases"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-01-20T15:39:28 IST" name="Smoke" finished-at="2023-01-20T15:39:29 IST" duration-ms="1809">
+      <class name="com.nitara.RestAssured.GetAllDiseases">
+        <test-method signature="getAllDiseases(java.lang.String)[pri:0, instance:com.nitara.RestAssured.GetAllDiseases@3232a28a]" started-at="2023-01-20T15:39:28 IST" name="getAllDiseases" finished-at="2023-01-20T15:39:29 IST" duration-ms="1783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://test.nitara.co.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllDiseases -->
+      </class> <!-- com.nitara.RestAssured.GetAllDiseases -->
+    </test> <!-- Smoke -->
+  </suite> <!-- Smoke -->
+</testng-results>
